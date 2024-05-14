@@ -3759,19 +3759,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\hoaid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test_3\\Test_3\\Test_3.csproj",
+      "projectUniqueName": "D:\\Post-office\\Test_3\\Test_3\\Test_3.csproj",
       "projectName": "Test_3",
-      "projectPath": "D:\\Test_3\\Test_3\\Test_3.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Test_3\\Test_3\\obj\\",
+      "projectPath": "D:\\Post-office\\Test_3\\Test_3\\Test_3.csproj",
+      "packagesPath": "C:\\Users\\hoaid\\.nuget\\packages\\",
+      "outputPath": "D:\\Post-office\\Test_3\\Test_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hoaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3791,6 +3791,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3853,7 +3858,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

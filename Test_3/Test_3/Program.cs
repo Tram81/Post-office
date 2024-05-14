@@ -1,5 +1,6 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using Test_3.Data;
 
 namespace Test_3
@@ -19,6 +20,22 @@ namespace Test_3
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+            // Cấu hình Swagger
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tên API của bạn", Version = "v1" });
+            });
+            //Config CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:8080") // Thay thế bằng địa chỉ thực tế của ứng dụng Vue của bạn
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
 
             var app = builder.Build();
 
@@ -32,6 +49,14 @@ namespace Test_3
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseStaticFiles();
+            //Config CORS
+            app.UseCors("AllowAll");
+            // Cấu hình Swagger UI
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API của bạn V1");
+            });
 
             app.UseRouting();
 

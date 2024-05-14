@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Post-office\\Test_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\data\\migrations\\20240514023851_teamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\data\\migrations\\20240514023851_teamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\test_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\test_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|d:\\post-office\\test_3\\test_3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Program.cs",
+              "RelativeDocumentMoniker": "Test_3\\Program.cs",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Program.cs",
+              "RelativeToolTip": "Test_3\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwDYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:02:21.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test_3.csproj",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Test_3.csproj",
+              "RelativeDocumentMoniker": "Test_3\\Test_3.csproj",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Test_3.csproj",
+              "RelativeToolTip": "Test_3\\Test_3.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T02:58:10.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240514023851_TeamDb.cs",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
+              "RelativeDocumentMoniker": "Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
+              "RelativeToolTip": "Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:58:10.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Test_3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Test_3\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T02:58:10.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Test_3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Test_3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:58:10.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Test_3\\Models\\User.cs",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Models\\User.cs",
+              "RelativeToolTip": "Test_3\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:58:10.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Post-office\\Test_3\\Test_3\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Test_3\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Post-office\\Test_3\\Test_3\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Test_3\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:58:10.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
