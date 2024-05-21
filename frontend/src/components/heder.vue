@@ -105,22 +105,22 @@
                   <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
                     <ul class="navbar-nav  ">
                       <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="about.html"> About </a>
+                        <a class="nav-link" href="/about"> About </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="service.html"> Service</a>
+                        <a class="nav-link" href="/service"> Service</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="shop.html"> Shop </a>
+                        <a class="nav-link" href="/shop"> Shop </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="company.html"> Company </a>
+                        <a class="nav-link" href="/company"> Company </a>
                       </li>
                       <li class="nav-item ">
-                        <a class="nav-link pr-0" href="contact.html">Contact us</a>
+                        <a class="nav-link pr-0" href="/contact">Contact us</a>
                       </li>
                     </ul>
 

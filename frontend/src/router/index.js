@@ -1,6 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '@/views/HomePage.vue'
+import Test from '@/views/TestView.vue'
+import Company from '@/components/CompanyV.vue'
+import Contact from '@/components/ContactV.vue'
+import Service from '@/components/ServiceV.vue'
+import Shop from '@/components/ShopV.vue'
+import About from '@/components/CompanyV.vue'
+
 
 
 const routes = [
@@ -11,12 +18,41 @@ const routes = [
   // },
 
   {
-    path: '/',
+    path: '/home',
     name: 'HomePage',
     component: Home,
-    meta: { requiresAuth: true } // Thêm meta data để chỉ định rằng trang cần đăng nhập
+    // meta: { requiresAuth: true } // Thêm meta data để chỉ định rằng trang cần đăng nhập
   },
-  
+  {
+    path: '/Company',
+    name: 'CompanyV',
+    component: Company
+  },
+  {
+    path: '/Contact',
+    name: 'ContactV',
+    component: Contact
+  },
+  {
+    path: '/Service',
+    name: 'ServiceV',
+    component: Service
+  },
+  {
+    path: '/Shop',
+    name: 'ShopV',
+    component: Shop
+  },
+  {
+    path: '/About',
+    name: 'AboutV',
+    component: About
+  },
+  {
+    path: '/test',
+    name: 'Test',
+    component: Test
+  },
 ]
 
 
