@@ -1,8 +1,9 @@
 ﻿using System;
+using Test_3.Models;
 
 namespace prj3.Models
 {
-    public class Shipment
+    public class Shipment : Base
     {
         public int ShipmentID { get; set; } // Sửa tên thuộc tính SgipmentID
         public string OrderId { get; set; } // Sửa tên thuộc tính OderId

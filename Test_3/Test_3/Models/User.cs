@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using Test_3.Models;
 
 namespace prj3.Models
 {
-    public class User
+    public class User : Base
     {
         [Key]
         public int UserID { get; set; }

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Test_3.Models;
 
 namespace prj3.Models
 {
-    public class Order
+    public class Order : Base
     {
         [Key]
         public int OrderID { get; set; }

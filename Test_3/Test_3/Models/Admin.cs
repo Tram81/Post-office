@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Test_3.Models;
 
 namespace prj3.Models
 {
-    public class Admin
+    public class Admin : Base
     {
         [Key]
         public int AdminId { get; set; }

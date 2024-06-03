@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Test_3.Data;
+using Test_3.Repository;
 
 namespace Test_3
 {
@@ -17,9 +18,18 @@ namespace Test_3
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+
+            // Dang ky vong doi cua 1 Repositoty de co the DI duoc
+            builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            // Scope
+            // Transient
+            // Singleton
+
+            // Middleware
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
             // Cấu hình Swagger
             builder.Services.AddSwaggerGen(c =>
             {
@@ -31,7 +41,7 @@ namespace Test_3
                 options.AddPolicy("AllowAll",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:8080") // Thay thế bằng địa chỉ thực tế của ứng dụng Vue của bạn
+                        builder.WithOrigins("http://localhost:8080") // địa chỉ thực tế của ứng dụng Vue
                                .AllowAnyHeader()
                                .AllowAnyMethod();
                     });

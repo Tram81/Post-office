@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Test_3.Models;
 
 namespace prj3.Models
 {
-    public class Product
+    public class Product : Base
     {
         [Key]
         public int ProductID { get; set; }

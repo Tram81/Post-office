@@ -1,6 +1,8 @@
-﻿namespace prj3.Models
+﻿using Test_3.Models;
+
+namespace prj3.Models
 {
-    public class Area
+    public class Area : Base
     {
         public int AreaID { get; set; }
         public string AreaName { get; set; } // Loại bỏ dấu '?' và thêm tên mô tả
