@@ -11,21 +11,30 @@ namespace prj3.Models
         [Key]
         public int OrderID { get; set; }
 
-        [ForeignKey("UserID")]
-        public string UserID { get; set; }
+        [Required(ErrorMessage = "UserID is required")]
+        public int UserID { get; set; }
 
-        [ForeignKey("AreaID")]
-        public string AreaID { get; set; }
+        [Required(ErrorMessage = "AreaCode is required")]
+        [StringLength(10, ErrorMessage = "AreaCode cannot be longer than 10 characters")]
+        public string AreaCode { get; set; }
 
         public DateTime? OrderDate { get; set; }
 
+        [Required(ErrorMessage = "Status is required")]
         public OrderStatus Status { get; set; }
 
+        [Required(ErrorMessage = "ShippingAddress is required")]
+        [StringLength(200, ErrorMessage = "ShippingAddress cannot be longer than 200 characters")]
         public string ShippingAddress { get; set; }
-        public decimal? ShippingFee { get; set; }
-        public decimal? TotalAmount { get; set; }
 
-        public ICollection<Area> Areas { get; set; }
+        [Range(0, double.MaxValue, ErrorMessage = "ShippingFee must be a non-negative value")]
+        public decimal ShippingFee { get; set; }
+
+        [Range(0, double.MaxValue, ErrorMessage = "TotalAmount must be a non-negative value")]
+        public decimal TotalAmount { get; set; }
+
+        [ForeignKey("UserID")]
+        public virtual User User { get; set; }
 
         public enum OrderStatus
         {
@@ -35,4 +44,5 @@ namespace prj3.Models
             Cancelled
         }
     }
+
 }

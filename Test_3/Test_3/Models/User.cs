@@ -8,15 +8,33 @@ namespace prj3.Models
     {
         [Key]
         public int UserID { get; set; }
-        public string UserName { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
-        public string? Email { get; set; }
-        public string? Fullname { get; set; }
-        public string? Address { get; set; }
-        public string? Phone { get; set; }
-        public string? FamenMethod { get; set; }
 
-        // Sửa tên thuộc tính và kiểu dữ liệu của mối quan hệ
-        public ICollection<Order> Orders { get; set; }
+        [Required(ErrorMessage = "UserName is required")]
+        [StringLength(100, ErrorMessage = "UserName cannot be longer than 100 characters")]
+        public string UserName { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(100, ErrorMessage = "Password cannot be longer than 100 characters")]
+        public string Password { get; set; }
+
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        [StringLength(100, ErrorMessage = "Email cannot be longer than 100 characters")]
+        public string Email { get; set; }
+
+        [StringLength(100, ErrorMessage = "FullName cannot be longer than 100 characters")]
+        public string FullName { get; set; }
+
+        [StringLength(200, ErrorMessage = "Address cannot be longer than 200 characters")]
+        public string Address { get; set; }
+
+        [Phone(ErrorMessage = "Invalid phone number format")]
+        [StringLength(20, ErrorMessage = "Phone cannot be longer than 20 characters")]
+        public string Phone { get; set; }
+
+        [StringLength(50, ErrorMessage = "PaymentMethod cannot be longer than 50 characters")]
+        public string PaymentMethod { get; set; }
+
+        public virtual ICollection<Order> Orders { get; set; }
     }
+
 }
