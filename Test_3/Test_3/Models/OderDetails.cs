@@ -23,10 +23,10 @@ namespace prj3.Models
         public decimal Price { get; set; }
 
         [ForeignKey("OrderID")]
-        public virtual Order Order { get; set; }
+        public virtual Order? Order { get; set; }
 
         [ForeignKey("ProductID")]
-        public virtual Product Product { get; set; }
+        public virtual Product? Product { get; set; }
     }
 
 }

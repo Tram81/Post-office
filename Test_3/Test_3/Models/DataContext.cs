@@ -18,7 +18,7 @@ namespace Test_3.Models
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Shipment> Shipments { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<User>? Users { get; set; }
 
     }
 }
