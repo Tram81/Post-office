@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using Test_3.Data;
+using Test_3.Models;
+using Test_3.Repository;
 
 namespace Test_3
 {
@@ -13,13 +14,22 @@ namespace Test_3
 
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            builder.Services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(connectionString));
-            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+            //builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+
+            // Dang ky vong doi cua 1 Repositoty de co the DI duoc
+            builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            // Scope
+            // Transient
+            // Singleton
+
+            // Middleware
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<DataContext>();
             builder.Services.AddControllersWithViews();
+
             // Cấu hình Swagger
             builder.Services.AddSwaggerGen(c =>
             {
@@ -31,7 +41,7 @@ namespace Test_3
                 options.AddPolicy("AllowAll",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:8080") // Thay thế bằng địa chỉ thực tế của ứng dụng Vue của bạn
+                        builder.WithOrigins("http://localhost:8080") // địa chỉ thực tế của ứng dụng Vue
                                .AllowAnyHeader()
                                .AllowAnyMethod();
                     });
@@ -42,7 +52,7 @@ namespace Test_3
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseMigrationsEndPoint();
+                //app.UseMigrationsEndPoint();
             }
             else
             {
