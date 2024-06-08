@@ -12,21 +12,16 @@
             <img src="images/service-1.jpg" alt="">
             <div class="d-flex">
               <h3>
-                CARGO
+                Nội thành
 
               </h3>
             </div>
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              Nhanh chóng, tiện lợi
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
         <div class="col-md-4">
@@ -34,7 +29,7 @@
             <img src="images/service-2.jpg" alt="">
             <div class="d-flex">
               <h3>
-                LOGISTIC SERVICE
+                Ngoại thành
 
 
               </h3>
@@ -42,14 +37,9 @@
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              An toàn, chu đáo
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
         <div class="col-md-4">
@@ -57,7 +47,7 @@
             <img src="images/service-3.jpg" alt="">
             <div class="d-flex">
               <h3>
-                STORAGE
+                Quốc tế
 
 
               </h3>
@@ -65,14 +55,9 @@
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              Tận tay khách hàng dù bất cứ nơi đâu
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -91,11 +76,11 @@
           <div class="logo-box">
             <img src="images/logo-white.png" alt="">
             <span>
-              Transportz
+              Quản lí bưu điện
             </span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur
+            Niềm vui của bạn là hạnh phúc của chúng tôi
           </p>
           <div class="info_social">
             <div>
@@ -122,21 +107,20 @@
         </div>
         <div class="col-md-3 info_address">
           <h5>
-            Address
+            Địa chỉ
           </h5>
           <p>
-            Healing Center, 176 W Street name,
-            New York, NY 10014, US
+            285 Đội Cấn, Hà Nội, Việt Nam
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
             <a href="">
-              transportz@gmail.com
+              quanlibuudien@gmail.com
             </a>
           </p>
         </div>

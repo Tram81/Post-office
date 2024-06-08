@@ -10,11 +10,7 @@
                   Company
                 </h3>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                  classical
-                  Latin literature from 45 BC, making it over 2000 yearsContrary to popular belief, Lorem Ipsum is not
-                  simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
-                  2000 years
+                  Công ty chúng tôi tự hào cung cấp nền tảng quản lý bưu điện tiên tiến, giúp tối ưu hóa quy trình vận chuyển và giao nhận bưu phẩm. Với đội ngũ chuyên gia giàu kinh nghiệm và công nghệ hiện đại, chúng tôi cam kết mang lại dịch vụ uy tín và chất lượng hàng đầu cho khách hàng.
                 </p>
               </div>
             </div>
@@ -44,11 +40,11 @@
           <div class="logo-box">
             <img src="images/logo-white.png" alt="">
             <span>
-              Transportz
+              Quản lí bưu điện
             </span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur
+            Niềm vui của bạn là hạnh phúc của chúng tôi
           </p>
           <div class="info_social">
             <div>
@@ -75,21 +71,20 @@
         </div>
         <div class="col-md-3 info_address">
           <h5>
-            Address
+            Địa chỉ
           </h5>
           <p>
-            Healing Center, 176 W Street name,
-            New York, NY 10014, US
+            285 Đội Cấn, Hà Nội, Việt Nam
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
             <a href="">
-              transportz@gmail.com
+              quanlibuudien@gmail.com
             </a>
           </p>
         </div>
