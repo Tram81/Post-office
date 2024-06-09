@@ -13,8 +13,7 @@
             About Us
           </h2>
           <p>
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco
+            Nhanh chóng, an toàn, và tiện lợi - Quản lý bưu điện thông minh trong tầm tay bạn!
           </p>
         </div>
 
@@ -29,13 +28,10 @@
         <div class="col-md-6 about_detail-container">
           <div class="about_detail-box">
             <h3>
-              Company and Transport
+              Quản lý bưu điện
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna as
+              Chào mừng bạn đến với trang web quản lý bưu điện của chúng tôi! Đây là nền tảng hiện đại, giúp tối ưu hóa quy trình vận chuyển và giao nhận bưu phẩm. Với giao diện thân thiện, bạn dễ dàng theo dõi, quản lý và tra cứu thông tin bưu kiện mọi lúc, mọi nơi. Hệ thống bảo mật cao, đảm bảo an toàn tuyệt đối cho thông tin khách hàng. Hãy trải nghiệm dịch vụ bưu điện thông minh và tiện ích với chúng tôi ngay hôm nay!
             </p>
             <div class="d-flex  justify-content-end">
               <a href="" class="quote-btn about-btn">
@@ -58,32 +54,27 @@
   <!-- service section -->
   <section class="service_section layout_padding">
     <div class="container">
-      <div class="d-flex justify-content-center">
+      <br class="d-flex justify-content-center">
         <h2 class="heading_style">
-          Our Services
+          Our Services 
         </h2>
-      </div>
+      
       <div class="row layout_padding2-top">
         <div class="col-md-4">
           <div class="service_img-box s-b-1">
             <img src="images/service-1.jpg" alt="">
             <div class="d-flex">
               <h3>
-                CARGO
+                Nội thành
 
               </h3>
             </div>
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              Nhanh chóng, tiện lợi
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
         <div class="col-md-4">
@@ -91,7 +82,7 @@
             <img src="images/service-2.jpg" alt="">
             <div class="d-flex">
               <h3>
-                LOGISTIC SERVICE
+                Ngoại thành
 
 
               </h3>
@@ -99,14 +90,9 @@
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              An toàn, chu đáo
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
         <div class="col-md-4">
@@ -114,7 +100,7 @@
             <img src="images/service-3.jpg" alt="">
             <div class="d-flex">
               <h3>
-                STORAGE
+                Quốc tế
 
 
               </h3>
@@ -122,14 +108,9 @@
           </div>
           <div class="service-detail">
             <p>
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.Excepteur
+              Tận tay khách hàng du bất cứ nơi đâu
             </p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="service-btn">
-                See More
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -150,13 +131,23 @@
         <div class="col-md-6">
           <div class="d-flex align-items-center h-100">
             <div class="shop-detail">
-              <h5>
-                Everything You Need
-              </h5>
+              
               <p>
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                1. Mọi thứ bạn cần, chúng tôi đều có - Dịch vụ tận tâm, chất lượng vượt trội!
               </p>
+              <p>
+                2. Mọi thứ bạn cần, chỉ một cú click - Dịch vụ hoàn hảo!
+              </p>
+              <p>
+                3. Mọi thứ bạn cần, luôn trong tầm tay - Dịch vụ tiện lợi, uy tín hàng đầu!
+              </p>
+              <p>
+                4. Mọi thứ bạn cần, chúng tôi mang đến - Dịch vụ nhanh chóng, an toàn tuyệt đối!
+              </p>
+              <p>
+                5. Mọi thứ bạn cần, chúng tôi sẵn sàng phục vụ - Dịch vụ đáng tin cậy, luôn đồng hành cùng bạn!
+              </p>
+                
             </div>
           </div>
         </div>
@@ -195,12 +186,10 @@
                   </div>
                   <div class="client_detail">
                     <h5>
-                      Rock lu
+                      Lịch sử phát triển
                     </h5>
                     <p>
-                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                      classical
-                      Latin literature from 45 BC, making it over 2000 years
+                      Trang web quản lý bưu điện của chúng tôi ra đời năm 2023, với mục tiêu cải thiện quy trình vận chuyển và giao nhận bưu phẩm. Trải qua nhiều ngày phát triển, hệ thống đã liên tục được nâng cấp để đáp ứng nhu cầu ngày càng cao của khách hàng. Hiện nay, trang web đã trở thành một công cụ quản lý bưu phẩm hiệu quả và tiện lợi, được nhiều người tin dùng.
                     </p>
                   </div>
                 </div>
@@ -212,12 +201,10 @@
                   </div>
                   <div class="client_detail">
                     <h5>
-                      Rock lu
+                      Team 3
                     </h5>
                     <p>
-                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                      classical
-                      Latin literature from 45 BC, making it over 2000 years
+                      CEO của trang web quản lý bưu điện của chúng tôi là một chuyên gia hàng đầu trong lĩnh vực công nghệ và logistics. Với tầm nhìn chiến lược và hơn 1 năm kinh nghiệm, vị lãnh đạo này đã dẫn dắt công ty dần trở thành một trong những nền tảng quản lý bưu phẩm hàng đầu Việt Nam.
                     </p>
                   </div>
                 </div>
@@ -225,46 +212,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="client_box c-b-1">
-                  <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="client_detail">
-                    <h5>
-                      Rock lu
-                    </h5>
-                    <p>
-                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                      classical
-                      Latin literature from 45 BC, making it over 2000 years
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="client_box c-b-2">
-                  <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="client_detail">
-                    <h5>
-                      Rock lu
-                    </h5>
-                    <p>
-                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                      classical
-                      Latin literature from 45 BC, making it over 2000 years
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div class="carousel-item">
           <div class="container">
             <div class="row">
@@ -365,10 +313,7 @@
                 Company
               </h3>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-                Latin literature from 45 BC, making it over 2000 yearsContrary to popular belief, Lorem Ipsum is not
-                simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
-                2000 years
+                Công ty chúng tôi tự hào cung cấp nền tảng quản lý bưu điện tiên tiến, giúp tối ưu hóa quy trình vận chuyển và giao nhận bưu phẩm. Với đội ngũ chuyên gia giàu kinh nghiệm và công nghệ hiện đại, chúng tôi cam kết mang lại dịch vụ uy tín và chất lượng hàng đầu cho khách hàng.
               </p>
             </div>
           </div>
@@ -437,11 +382,11 @@
           <div class="logo-box">
             <img src="images/logo-white.png" alt="">
             <span>
-              Transportz
+              Quản lí bưu điện
             </span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur
+            Niềm vui của bạn là hạnh phúc của chúng tôi
           </p>
           <div class="info_social">
             <div>
@@ -468,21 +413,20 @@
         </div>
         <div class="col-md-3 info_address">
           <h5>
-            Address
+            Địa chỉ
           </h5>
           <p>
-            Healing Center, 176 W Street name,
-            New York, NY 10014, US
+            285 Đội Cấn, Hà Nội, Việt Nam
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
             <a href="">
-              transportz@gmail.com
+              quanlibuudien@gmail.com
             </a>
           </p>
         </div>
@@ -543,12 +487,7 @@
   <!-- end info section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+  
 </template>
 
 <script>

@@ -9,7 +9,7 @@
             <div class="logo-box">
               <img src="images/logo.png" alt="">
               <span>
-                Transportz
+                Quản lí bưu điện
               </span>
             </div>
           </a>
@@ -45,7 +45,7 @@
           <div class="logo-box">
             <img src="images/logo.png" alt="">
             <span>
-              Transportz
+              Quản lí bưu điện
             </span>
           </div>
           <div>
@@ -57,7 +57,7 @@
                     <img src="images/phone.png" alt="" />
                   </div>
                   <span>
-                    (+71) 258964785
+                    (+84) 123456789
                   </span>
                 </a>
                 <a href="" class="ml-4">
@@ -65,7 +65,7 @@
                     <img src="images/mail.png" alt="" />
                   </div>
                   <span>
-                    transportz@gmail.com
+                    Quanlibuudien@gmail.com
                   </span>
                 </a>
               </div>
@@ -165,9 +165,9 @@
                       </div>
                       <div>
                         <h1>
-                          Unbeatable <br>
-                          trucking & Transport <br>
-                          Services
+                          Bất khả chiến bại <br>
+                          Vận tải & vận chuyển <br>
+                          Dịch vụ không gì sánh bằng
                         </h1>
 
                         <div class="d-flex">
