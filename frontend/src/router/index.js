@@ -3,20 +3,32 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/HomePage.vue'
 import Test from '@/views/TestView.vue'
 import Company from '@/components/CompanyV.vue'
-import Contact from '@/components/ContactV.vue'
 import Service from '@/components/ServiceV.vue'
 import Shop from '@/components/ShopV.vue'
-import About from '@/components/CompanyV.vue'
+import Product from '@/components/ProductListV.vue'
+import Register from '@/components/RegisterV.vue'
+import Login from '@/components/LoginV.vue'
+import crud from '@/components/CRUD.vue'
+
 
 
 
 const routes = [
-  // {
-  //   path: '/register',
-  //   name: 'Register',
-  //   component: Register
-  // },
-
+  {
+    path: '/crud',
+    name: 'CRUD',
+    component: crud
+  },
+  {
+    path: '/Register',
+    name: 'RegisterV',
+    component: Register
+  },
+  {
+    path: '/Login',
+    name: 'LoginV',
+    component: Login
+  },
   {
     path: '/home',
     name: 'HomePage',
@@ -29,11 +41,6 @@ const routes = [
     component: Company
   },
   {
-    path: '/Contact',
-    name: 'ContactV',
-    component: Contact
-  },
-  {
     path: '/Service',
     name: 'ServiceV',
     component: Service
@@ -44,9 +51,9 @@ const routes = [
     component: Shop
   },
   {
-    path: '/About',
-    name: 'AboutV',
-    component: About
+    path: '/Product',
+    name: 'ProductListV',
+    component: Product
   },
   {
     path: '/test',

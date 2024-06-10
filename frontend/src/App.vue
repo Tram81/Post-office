@@ -10,6 +10,28 @@
   <!-- <div>
     fotter
   </div> -->
+  <div id="app">
+    <ProductList />
+  </div>
+
 </template>
 
-<style></style>
+<script>
+import ProductList from '@/components/ProductListV.vue';
+
+
+export default {
+  name: 'App',
+  components: {
+    ProductList,
+    
+  }
+};
+</script>
+
+
+<style>
+/* Add your styles here */
+</style>
+
+

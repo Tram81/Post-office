@@ -4,20 +4,20 @@
             <Headers></Headers>
         </header>
         <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <Conttact />
+        <ProductList />
         <!--msg="Welcome to Your Vue.js App"-->
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Conttact from '@/components/ContactV.vue'
+import ProductList from '@/components/ProductListV.vue'
 import Headers from '@/components/heder.vue';
 
 export default {
-    name: 'ContactV',
+    name: 'ProductListView',
     components: {
-        Conttact,
+        ProductList,
         Headers
     }
 }

@@ -15,7 +15,7 @@ import commpany from '@/components/CompanyV.vue'
 import Headers from '@/components/heder.vue';
 
 export default {
-    name: 'CompanyV',
+    name: 'CompanyView',
     components: {
         commpany,
         Headers

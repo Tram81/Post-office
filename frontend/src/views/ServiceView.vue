@@ -15,7 +15,7 @@ import Servvice from '@/components/ServiceV.vue'
 import Headers from '@/components/heder.vue';
 
 export default {
-    name: 'ServiceV',
+    name: 'ServiceView',
     components: {
         Servvice,
         Headers

@@ -108,7 +108,7 @@
                         <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/about"> About </a>
+                        <a class="nav-link" href="/ProductList"> Product </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/service"> Service</a>
@@ -120,7 +120,7 @@
                         <a class="nav-link" href="/company"> Company </a>
                       </li>
                       <li class="nav-item ">
-                        <a class="nav-link pr-0" href="/contact">Contact us</a>
+                        <a class="nav-link pr-0" href="/RegisterV">Log in</a>
                       </li>
                     </ul>
 
@@ -407,7 +407,4 @@ export default {
 @import url("@/assets/css/responsive.css");
 @import url("@/assets/css/bootstrap.css");
 @import url("@/assets/css/style.css");
-
-
-
 </style>

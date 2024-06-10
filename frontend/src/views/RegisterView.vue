@@ -4,20 +4,20 @@
             <Headers></Headers>
         </header>
         <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <Abbout />
+        <Register />
         <!--msg="Welcome to Your Vue.js App"-->
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Abbout from '@/components/AboutV.vue'
+import Register from '@/components/RegisterV.vue'
 import Headers from '@/components/heder.vue';
 
 export default {
-    name: 'AboutV',
+    name: 'RegisterView',
     components: {
-        Abbout,
+        Register,
         Headers
     }
 }

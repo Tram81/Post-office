@@ -4,20 +4,20 @@
             <Headers></Headers>
         </header>
         <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <ShopPost />
+        <Login />
         <!--msg="Welcome to Your Vue.js App"-->
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ShopPost from '@/components/ShopV.vue'
+import Login from '@/components/LoginV.vue'
 import Headers from '@/components/heder.vue';
 
 export default {
-    name: 'ShopView',
+    name: 'LoginView',
     components: {
-        ShopPost ,
+        Login,
         Headers
     }
 }
