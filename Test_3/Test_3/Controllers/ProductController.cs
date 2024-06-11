@@ -23,6 +23,10 @@ namespace prj3.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b9e50cdf5624bd48965967963046d5f2d6c92c12
             return await _context.Products.ToListAsync();
         }
 
@@ -105,4 +109,8 @@ namespace prj3.Controllers
             return _context.Products.Any(e => e.ProductID == id);
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b9e50cdf5624bd48965967963046d5f2d6c92c12

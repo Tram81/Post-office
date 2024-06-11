@@ -12,7 +12,7 @@ namespace prj3.Models
         [Required(ErrorMessage = "UserName is required")]
         [StringLength(100, ErrorMessage = "UserName cannot be longer than 100 characters")]
         public string UserName { get; set; }
-
+        public string? Username { get; internal set; }
         [Required(ErrorMessage = "Password is required")]
         [StringLength(100, ErrorMessage = "Password cannot be longer than 100 characters")]
         public string Password { get; set; }
@@ -35,6 +35,7 @@ namespace prj3.Models
         public string PaymentMethod { get; set; }
 
         public virtual ICollection<Order> Orders { get; set; }
+        public string? User { get; internal set; }
     }
 
 }

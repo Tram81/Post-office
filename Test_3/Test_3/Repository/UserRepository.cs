@@ -6,7 +6,7 @@ namespace Test_3.Repository
 {
     public interface IUserRepository : IBaseRepository<User>
     {
-
+        Task GetUserByUsername(string username);
     }
     public class UserRepository : BaseRepository<User>, IUserRepository
     {

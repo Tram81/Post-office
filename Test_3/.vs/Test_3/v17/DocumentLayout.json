@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "E:\\Post-office\\Test_3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\basescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\basescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\odercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\odercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\oderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\oderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\models\\oderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\data\\migrations\\20240514023851_teamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\data\\migrations\\20240514023851_teamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|solutionrelative:test_3\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5734521-7612-46C7-8ED0-E13E4ADE7B7F}|Test_3\\Test_3.csproj|e:\\post-office\\test_3\\test_3\\repository\\shipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,37 +134,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Test_3\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Test_3\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:30:05.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Test_3\\Models\\Category.cs",
-              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Models\\Category.cs",
-              "RelativeToolTip": "Test_3\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "Services.cs",
+              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "Test_3\\Models\\Services.cs",
+              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Models\\Services.cs",
+              "RelativeToolTip": "Test_3\\Models\\Services.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:25:44.8Z",
+              "WhenOpened": "2024-06-10T16:51:58.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasesController.cs",
+              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\BasesController.cs",
+              "RelativeDocumentMoniker": "Test_3\\Controllers\\BasesController.cs",
+              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\BasesController.cs",
+              "RelativeToolTip": "Test_3\\Controllers\\BasesController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwBoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:46:08.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "DataContext.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\DataContext.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\DataContext.cs",
@@ -164,12 +171,11 @@
               "RelativeToolTip": "Test_3\\Models\\DataContext.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:25:37.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:25:37.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Shipment.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Shipment.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\Shipment.cs",
@@ -177,12 +183,11 @@
               "RelativeToolTip": "Test_3\\Models\\Shipment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:25:30.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:25:30.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Test_3\\Controllers\\UserController.cs",
@@ -190,12 +195,11 @@
               "RelativeToolTip": "Test_3\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:23:53.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:23:53.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "OderDetailsController.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\OderDetailsController.cs",
               "RelativeDocumentMoniker": "Test_3\\Controllers\\OderDetailsController.cs",
@@ -203,12 +207,11 @@
               "RelativeToolTip": "Test_3\\Controllers\\OderDetailsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:13:26.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:13:26.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "OderController.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\OderController.cs",
               "RelativeDocumentMoniker": "Test_3\\Controllers\\OderController.cs",
@@ -216,25 +219,24 @@
               "RelativeToolTip": "Test_3\\Controllers\\OderController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:11:17.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:11:17.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Base.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Base.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\Base.cs",
               "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Models\\Base.cs",
               "RelativeToolTip": "Test_3\\Models\\Base.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T15:47:34.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Test_3\\Controllers\\ProductController.cs",
@@ -242,12 +244,35 @@
               "RelativeToolTip": "Test_3\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAkwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:20:14.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:20:14.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Test_3\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Test_3\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:30:05.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Test_3\\Models\\Category.cs",
+              "ToolTip": "E:\\Post-office\\Test_3\\Test_3\\Models\\Category.cs",
+              "RelativeToolTip": "Test_3\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:25:44.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Test_3.csproj",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Test_3.csproj",
               "RelativeDocumentMoniker": "Test_3\\Test_3.csproj",
@@ -255,12 +280,11 @@
               "RelativeToolTip": "Test_3\\Test_3.csproj",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-14T02:58:10.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T02:58:10.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Order.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\Order.cs",
@@ -268,12 +292,11 @@
               "RelativeToolTip": "Test_3\\Models\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:47:36.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:47:36.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\User.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\User.cs",
@@ -286,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Admin.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\Admin.cs",
@@ -294,12 +317,11 @@
               "RelativeToolTip": "Test_3\\Models\\Admin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:55:32.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:55:32.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "product.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\product.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\product.cs",
@@ -307,12 +329,11 @@
               "RelativeToolTip": "Test_3\\Models\\product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:47:36.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:47:36.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "FiterRequestDTO.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Common\\FiterRequestDTO.cs",
               "RelativeDocumentMoniker": "Test_3\\Common\\FiterRequestDTO.cs",
@@ -320,12 +341,11 @@
               "RelativeToolTip": "Test_3\\Common\\FiterRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:47:23.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:47:23.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "OderDetails.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\OderDetails.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\OderDetails.cs",
@@ -333,12 +353,11 @@
               "RelativeToolTip": "Test_3\\Models\\OderDetails.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:54:13.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:54:13.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Program.cs",
               "RelativeDocumentMoniker": "Test_3\\Program.cs",
@@ -346,12 +365,11 @@
               "RelativeToolTip": "Test_3\\Program.cs",
               "ViewState": "AQIAALsAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T03:02:21.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T03:02:21.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "00000000000000_CreateIdentitySchema.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "Test_3\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
@@ -359,12 +377,11 @@
               "RelativeToolTip": "Test_3\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:10:57.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:10:57.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Test_3\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -372,12 +389,11 @@
               "RelativeToolTip": "Test_3\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:10:58.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:10:58.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "20240514023851_TeamDb.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
               "RelativeDocumentMoniker": "Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
@@ -385,12 +401,11 @@
               "RelativeToolTip": "Test_3\\Data\\Migrations\\20240514023851_TeamDb.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAQwDIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T02:58:10.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T02:58:10.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Test_3\\Repository\\UserRepository.cs",
@@ -403,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ShipmentRepository.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Repository\\ShipmentRepository.cs",
               "RelativeDocumentMoniker": "Test_3\\Repository\\ShipmentRepository.cs",
@@ -411,12 +426,11 @@
               "RelativeToolTip": "Test_3\\Repository\\ShipmentRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:10:47.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:10:47.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Test_3\\Repository\\OrderRepository.cs",
@@ -424,12 +438,11 @@
               "RelativeToolTip": "Test_3\\Repository\\OrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:10:47.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:10:47.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\appsettings.json",
               "RelativeDocumentMoniker": "Test_3\\appsettings.json",
@@ -437,12 +450,11 @@
               "RelativeToolTip": "Test_3\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T15:54:04.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:54:04.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Views\\Admins\\Details.cshtml",
               "RelativeDocumentMoniker": "Test_3\\Views\\Admins\\Details.cshtml",
@@ -450,12 +462,11 @@
               "RelativeToolTip": "Test_3\\Views\\Admins\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T15:54:00.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:54:00.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Views\\Admins\\Create.cshtml",
               "RelativeDocumentMoniker": "Test_3\\Views\\Admins\\Create.cshtml",
@@ -463,12 +474,11 @@
               "RelativeToolTip": "Test_3\\Views\\Admins\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T15:53:59.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:53:59.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Test_3\\Models\\ErrorViewModel.cs",
@@ -476,12 +486,11 @@
               "RelativeToolTip": "Test_3\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:47:35.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:47:35.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Test_3\\Repository\\ProductRepository.cs",
@@ -489,12 +498,11 @@
               "RelativeToolTip": "Test_3\\Repository\\ProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:47:41.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T15:47:41.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\Post-office\\Test_3\\Test_3\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Test_3\\Views\\_ViewImports.cshtml",
@@ -502,8 +510,7 @@
               "RelativeToolTip": "Test_3\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T02:58:10.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T02:58:10.529Z"
             }
           ]
         }

@@ -50,11 +50,11 @@
           <div class="logo-box">
             <img src="images/logo-white.png" alt="">
             <span>
-              Transportz
+              Quản lí bưu điện
             </span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur
+            Niềm vui của bạn là hạnh phúc của chúng tôi
           </p>
           <div class="info_social">
             <div>
@@ -81,21 +81,20 @@
         </div>
         <div class="col-md-3 info_address">
           <h5>
-            Address
+            Địa chỉ
           </h5>
           <p>
-            Healing Center, 176 W Street name,
-            New York, NY 10014, US
+            285 Đội Cấn, Hà Nội, Việt Nam
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
-            (+71) 8522369417
+            (+84) 123456789
           </p>
           <p>
             <a href="">
-              transportz@gmail.com
+              quanlibuudien@gmail.com
             </a>
           </p>
         </div>
