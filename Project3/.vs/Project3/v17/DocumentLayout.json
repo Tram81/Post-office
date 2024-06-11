@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\test\\project3\\Project3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Models\\Categories.cs",
+              "RelativeDocumentMoniker": "Project3\\Models\\Categories.cs",
+              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Models\\Categories.cs",
+              "RelativeToolTip": "Project3\\Models\\Categories.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:02:04.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Project3\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Project3\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAnwAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:46:00.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Program.cs",
+              "RelativeDocumentMoniker": "Project3\\Program.cs",
+              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Program.cs",
+              "RelativeToolTip": "Project3\\Program.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:43:31.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
