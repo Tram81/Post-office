@@ -3,22 +3,24 @@
         <header>
             <Headers></Headers>
         </header>
-        <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <Conttact />
-        <!--msg="Welcome to Your Vue.js App"-->
+        <Contact />
+        <footer>
+            <footers></footers>
+        </footer>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Conttact from '@/components/ContactV.vue'
-import Headers from '@/components/heder.vue';
+import Contact from '@/components/ContactV.vue';
+import Headers from '@/components/header.vue';
+import footers from '@/components/footer.vue';
 
 export default {
-    name: 'ContactV',
+    name: 'ContactView',
     components: {
-        Conttact,
-        Headers
+        Contact,
+        Headers,
+        footers
     }
 }
 </script>

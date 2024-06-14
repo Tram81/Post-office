@@ -3,22 +3,24 @@
         <header>
             <Headers></Headers>
         </header>
-        <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <Abbout />
-        <!--msg="Welcome to Your Vue.js App"-->
+        <About />
+        <footer>
+            <footers></footers>
+        </footer>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Abbout from '@/components/AboutV.vue'
-import Headers from '@/components/heder.vue';
+import About from '@/components/AboutV.vue';
+import Headers from '@/components/header.vue';
+import footers from '@/components/footer.vue';
 
 export default {
-    name: 'AboutV',
+    name: 'AboutView',
     components: {
-        Abbout,
-        Headers
+        About,
+        Headers,
+        footers
     }
 }
 </script>
