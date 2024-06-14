@@ -3,22 +3,25 @@
         <header>
             <Headers></Headers>
         </header>
-        <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
         <ProductList />
-        <!--msg="Welcome to Your Vue.js App"-->
+        <footer>
+            <footers></footers>
+        </footer>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ProductList from '@/components/ProductListV.vue'
-import Headers from '@/components/heder.vue';
+import ProductList from '@/components/ProductListV.vue';
+import Headers from '@/components/header.vue';
+import footers from '@/components/footer.vue'
+
 
 export default {
     name: 'ProductListView',
     components: {
         ProductList,
-        Headers
+        Headers,
+        footers
     }
 }
 </script>

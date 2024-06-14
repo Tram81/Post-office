@@ -3,22 +3,24 @@
         <header>
             <Headers></Headers>
         </header>
-        <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <ShopPost />
-        <!--msg="Welcome to Your Vue.js App"-->
+        <Shop />
+        <footer>
+            <footers></footers>
+        </footer>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ShopPost from '@/components/ShopV.vue'
-import Headers from '@/components/heder.vue';
+import Shop from '@/components/ShopV.vue';
+import Headers from '@/components/header.vue';
+import footers from '@/components/footer.vue';
 
 export default {
     name: 'ShopView',
     components: {
-        ShopPost ,
-        Headers
+        Shop,
+        Headers,
+        footers
     }
 }
 </script>

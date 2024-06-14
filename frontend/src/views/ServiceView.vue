@@ -3,22 +3,24 @@
         <header>
             <Headers></Headers>
         </header>
-        <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-        <Servvice />
-        <!--msg="Welcome to Your Vue.js App"-->
+        <Service />
+        <footer>
+            <footers></footers>
+        </footer>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Servvice from '@/components/ServiceV.vue'
-import Headers from '@/components/heder.vue';
+import Service from '@/components/ServiceV.vue';
+import Headers from '@/components/header.vue';
+import footers from '@/components/footer.vue';
 
 export default {
     name: 'ServiceView',
     components: {
-        Servvice,
-        Headers
+        Service,
+        Headers,
+        footers
     }
 }
 </script>

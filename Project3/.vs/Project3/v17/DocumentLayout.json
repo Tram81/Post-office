@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\test\\project3\\Project3\\",
+  "WorkspaceRootPath": "D:\\1\\Post-office\\Project3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|d:\\1\\post-office\\project3\\project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|d:\\1\\post-office\\project3\\project3\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|d:\\1\\post-office\\project3\\project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|e:\\test\\project3\\project3\\project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|d:\\1\\post-office\\project3\\project3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|d:\\1\\post-office\\project3\\project3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5D52345-C6E7-4AED-87A9-6F4C36326F9C}|Project3\\Project3.csproj|solutionrelative:project3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\1\\Post-office\\Project3\\Project3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Project3\\Models\\Product.cs",
+              "ToolTip": "D:\\1\\Post-office\\Project3\\Project3\\Models\\Product.cs",
+              "RelativeToolTip": "Project3\\Models\\Product.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwBsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T04:44:53.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\1\\Post-office\\Project3\\Project3\\appsettings.json",
+              "RelativeDocumentMoniker": "Project3\\appsettings.json",
+              "ToolTip": "D:\\1\\Post-office\\Project3\\Project3\\appsettings.json",
+              "RelativeToolTip": "Project3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T04:29:17.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Categories.cs",
-              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Models\\Categories.cs",
+              "DocumentMoniker": "D:\\1\\Post-office\\Project3\\Project3\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "Project3\\Models\\Categories.cs",
-              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Models\\Categories.cs",
+              "ToolTip": "D:\\1\\Post-office\\Project3\\Project3\\Models\\Categories.cs",
               "RelativeToolTip": "Project3\\Models\\Categories.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAiAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T04:02:04.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "D:\\1\\Post-office\\Project3\\Project3\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Project3\\Controllers\\CategoriesController.cs",
-              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\1\\Post-office\\Project3\\Project3\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Project3\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAnwAkAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T03:46:00.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\test\\project3\\Project3\\Project3\\Program.cs",
+              "DocumentMoniker": "D:\\1\\Post-office\\Project3\\Project3\\Program.cs",
               "RelativeDocumentMoniker": "Project3\\Program.cs",
-              "ToolTip": "E:\\test\\project3\\Project3\\Project3\\Program.cs",
+              "ToolTip": "D:\\1\\Post-office\\Project3\\Project3\\Program.cs",
               "RelativeToolTip": "Project3\\Program.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T03:43:31.988Z",
               "EditorCaption": ""
