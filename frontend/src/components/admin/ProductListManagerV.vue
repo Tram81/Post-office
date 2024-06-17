@@ -1,61 +1,76 @@
 <template>
-  <div class="container mt-4">
-    <h2>Product Manager</h2>
+  <div class="layout">
+    <NavbarAdmin />
+    <div class="main-content">
+      <SidebarAdmin />
+      <div class="container mt-4">
+        <h2>Quản lý Sản phẩm</h2>
+        <!-- Form để tạo hoặc chỉnh sửa sản phẩm -->
+        <form @submit.prevent="handleSubmit">
+          <div class="mb-3">
+            <label for="name" class="form-label">Tên sản phẩm</label>
+            <input v-model="localProduct.name" type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Mô tả</label>
+            <input v-model="localProduct.description" type="text" class="form-control" id="description" required>
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Giá (VNĐ)</label>
+            <input v-model="localProduct.price" type="text" class="form-control" id="price" required>
+          </div>
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Số lượng</label>
+            <input v-model="localProduct.quantity" type="text" class="form-control" id="quantity" required>
+          </div>
+          <button type="submit" class="btn btn-primary">{{ editingProduct !== null ? 'Cập nhật' : 'Tạo mới' }} Sản phẩm</button>
+        </form>
 
-    <!-- Form for creating or editing products -->
-    <form @submit.prevent="handleSubmit">
-      <div class="mb-3">
-        <label for="name" class="form-label">Product Name</label>
-        <input v-model="localProduct.name" type="text" class="form-control" id="name" required>
+        <!-- Danh sách sản phẩm -->
+        <table class="table mt-4">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Tên sản phẩm</th>
+              <th>Mô tả</th>
+              <th>Giá (VNĐ)</th>
+              <th>Số lượng tồn kho</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="p in products" :key="p.productID">
+              <td>{{ p.productID }}</td>
+              <td>{{ p.productName }}</td>
+              <td>{{ p.description }}</td>
+              <td>{{ formatCurrency(p.priceInVND) }}</td>
+              <td>{{ p.quantityStock }}</td>
+              <td>
+                <button class="btn btn-sm btn-primary" @click="editProduct(p)">Sửa</button>
+                <button class="btn btn-sm btn-danger" @click="deleteProduct(p.productID)">Xóa</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="mb-3">
-        <label for="price" class="form-label">Price</label>
-        <input v-model="localProduct.price" type="number" class="form-control" id="price" required>
-      </div>
-      <div class="mb-3">
-        <label for="description" class="form-label">Description</label>
-        <input v-model="localProduct.description" type="text" class="form-control" id="description" required>
-      </div>
-      <div class="mb-3">
-        <label for="quantity" class="form-label">Quantity</label>
-        <input v-model="localProduct.quantity" type="number" class="form-control" id="quantity" required>
-      </div>
-      <button type="submit" class="btn btn-primary">{{ editingProduct !== null ? 'Update' : 'Create' }} Product</button>
-    </form>
-
-    <!-- Product list -->
-    <table class="table mt-4">
-      <thead>
-        <tr>
-          <th>Product Name</th>
-          <th>Price</th>
-          <th>Description</th>
-          <th>Quantity</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="product in products" :key="product.id">
-          <td>{{ product.name }}</td>
-          <td>{{ product.price }}</td>
-          <td>{{ product.description }}</td>
-          <td>{{ product.quantity }}</td>
-          <td>
-            <button class="btn btn-sm btn-primary" @click="editProduct(product)">Edit</button>
-            <button class="btn btn-sm btn-danger" @click="deleteProduct(product.id)">Delete</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    </div>
+    <FooterAdmin />
   </div>
 </template>
 
 <script>
+import SidebarAdmin from './SidebarAdminV.vue';
+import NavbarAdmin from './NavbarAdminV.vue';
+import FooterAdmin from './FooterAdminV.vue';
 import axios from 'axios';
-// import { ref, onMounted } from 'vue';
 
 export default {
-  name: 'ProductManager',
+  name: 'ProductListManagerV',
+  components: {
+      SidebarAdmin,
+      NavbarAdmin,
+      FooterAdmin
+    },
   data() {
     return {
       products: [],
@@ -65,44 +80,47 @@ export default {
         description: '',
         quantity: null
       },
-      editingProduct: null
+      editingProduct: null,
+      exchangeRate: 23000 // Tỷ giá VNĐ/USD, có thể thay đổi theo nhu cầu thực tế
     };
-  },
-  mounted() {
-    this.fetchProducts();
   },
   methods: {
     async fetchProducts() {
+      var url = process.env.VUE_APP_BASE_URL + `Product/GetAll`;
       try {
-        const response = await axios.get('https://api.example.com/products');
+        const response = await axios.get(url);
         this.products = response.data;
+        // Chuyển đổi giá từ USD sang VNĐ
+        this.products.forEach(product => {
+          product.priceInVND = product.price * this.exchangeRate;
+        });
       } catch (error) {
-        console.error('Failed to fetch products:', error);
+        console.error('Lỗi khi tải danh sách sản phẩm:', error);
       }
     },
     async handleSubmit() {
       try {
         if (this.editingProduct !== null) {
-          // Update existing product
-          await axios.put(`https://api.example.com/products/${this.products[this.editingProduct].id}`, this.localProduct);
+          // Cập nhật sản phẩm đã có
+          await axios.put(`https://localhost:7074/api/Product/Update/${this.products[this.editingProduct].productID}`, this.localProduct);
           this.products[this.editingProduct] = { ...this.localProduct };
           this.editingProduct = null;
         } else {
-          // Create new product
-          await axios.post('https://api.example.com/products', this.localProduct);
-          this.fetchProducts(); // Fetch the updated product list
+          // Tạo sản phẩm mới
+          await axios.post('https://localhost:7074/api/Product/Create', this.localProduct);
+          this.fetchProducts(); // Tải lại danh sách sản phẩm đã cập nhật
         }
         this.clearForm();
       } catch (error) {
-        console.error('Failed to create/update product:', error);
+        console.error('Lỗi khi tạo/cập nhật sản phẩm:', error);
       }
     },
     async deleteProduct(productId) {
       try {
-        await axios.delete(`https://api.example.com/products/${productId}`);
-        this.products = this.products.filter(product => product.id !== productId);
+        await axios.delete(`https://localhost:7074/api/Product/Delete/${productId}`);
+        this.products = this.products.filter(product => product.productID !== productId);
       } catch (error) {
-        console.error('Failed to delete product:', error);
+        console.error('Lỗi khi xóa sản phẩm:', error);
       }
     },
     editProduct(product) {
@@ -117,18 +135,35 @@ export default {
         quantity: null
       };
       this.editingProduct = null;
+    },
+    formatCurrency(value) {
+      // Hàm định dạng số tiền sang đơn vị tiền tệ VNĐ
+      return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value);
     }
+  },
+  mounted() {
+    this.fetchProducts();
   }
 };
 </script>
 
 <style scoped>
-/* Add your custom styles here if needed */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-/* Global container style */
+.main-content {
+  display: flex;
+  flex: 1;
+  background-color: #f7f7f7;
+}
+
 .container {
+  flex: 1;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 20px;
   padding: 20px;
   background-color: #f8f9fa;
   border: 1px solid #ddd;
@@ -136,7 +171,7 @@ export default {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Form style */
+/* Định dạng cho form */
 form {
   background-color: #fff;
   padding: 20px;
@@ -158,11 +193,7 @@ form input[type="number"] {
   border-radius: 4px;
 }
 
-form .mb-3 {
-  margin-bottom: 1.5rem;
-}
-
-/* Table style */
+/* Định dạng cho bảng */
 .table {
   width: 100%;
   margin-top: 20px;
@@ -173,7 +204,6 @@ form .mb-3 {
 .table td {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: center;
 }
 
 .table th {
@@ -189,7 +219,7 @@ form .mb-3 {
   margin-right: 5px;
 }
 
-/* Button style */
+/* Định dạng cho nút */
 .btn {
   padding: 8px 16px;
   font-size: 14px;
@@ -217,4 +247,50 @@ form .mb-3 {
   background-color: #c82333;
 }
 
+/* Định dạng cho sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0;
+}
+
+.active-link {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+}
 </style>

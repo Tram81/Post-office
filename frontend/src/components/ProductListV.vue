@@ -4,17 +4,17 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col">Tên</th>
-          <th scope="col">Description</th>
+          <th scope="col">Tên sản phẩm</th>
+          <th scope="col">Mô tả</th>
           <th scope="col">Giá (VNĐ)</th>
-          <th scope="col">Số lượng tồn</th>
+          <th scope="col">Số lượng tồn kho</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="p in products" :key="p.productID">
           <td>{{ p.productName }}</td>
           <td>{{ p.description }}</td>
-          <td>{{ formatCurrency(p.priceInVND) }}</td>
+          <td>{{ formatCurrency(p.price) }}</td>
           <td>{{ p.quantityStock }}</td>
         </tr>    
       </tbody>
@@ -38,17 +38,13 @@ export default {
       axios.get(url)
         .then(response => {
           this.products = response.data;
-          // Chuyển đổi giá sản phẩm sang VNĐ
-          this.products.forEach(product => {
-            product.priceInVND = product.price * 23000; // Giả sử tỷ giá là 23000 VNĐ/USD
-          });
         })
         .catch(error => {
-          console.error('There was an error fetching the products!', error);
+          console.error('Có lỗi khi tải danh sách sản phẩm!', error);
         });
     },
     formatCurrency(value) {
-      // Hàm định dạng số tiền sang dạng tiền tệ VNĐ
+      // Hàm định dạng số tiền sang đơn vị tiền tệ VNĐ
       return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value);
     }
   },
@@ -61,7 +57,7 @@ export default {
 <style scoped>
 /* Định dạng cho phần tiêu đề h1 */
 h1 {
-  font-size: 24px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 

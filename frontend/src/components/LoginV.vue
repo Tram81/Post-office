@@ -97,7 +97,8 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #f7f7f7;
+  background-image: url('/src/assets/brglg.jpg');
+  background-size: cover;
 }
 
 .auth-content {

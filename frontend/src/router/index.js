@@ -13,10 +13,8 @@ import ContactView from '@/views/ContactView.vue'
 
 import DashboardView from '@/views/admin/DashboardView.vue'
 import LoginAdminView from '@/views/admin/LoginAdminView.vue'
-import UserManagerView from '@/views/admin/UserManagerView.vue'
-import ProductListAddView from '@/views/admin/ProductListAddView.vue'
+import CustomerManagerView from '@/views/admin/CustomerManagerView.vue'
 import ProductListManagerView from '@/views/admin/ProductListManagerView.vue'
-import EditProductView from '@/views/admin/EditProductView.vue'
 
 // import ProductListAddView from '@/views/admin/ProductListAddView.vue'
 // import ProductListAddView from '@/views/admin/ProductListAddView.vue'
@@ -79,24 +77,14 @@ const routes = [
     component: DashboardView
   },
   {
-    path: '/admin/UserManager',
-    name: 'UserManagerView',
-    component: UserManagerView
-  },
-  {
-    path: '/admin/ProductListAdd',
-    name: 'ProductListAddView',
-    component: ProductListAddView
+    path: '/admin/CustomerManager',
+    name: 'CustomerManagerView',
+    component: CustomerManagerView
   },
   {
     path: '/admin/ProductListManager',
     name: 'ProductListManagerView',
     component: ProductListManagerView
-  },
-  {
-    path: '/admin/EditProduct',
-    name: 'EditProductView',
-    component: EditProductView
   },
 ]
 const router = createRouter({

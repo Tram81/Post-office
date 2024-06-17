@@ -1,75 +1,81 @@
 <template>
-    <!-- SIDEBAR -->
-    <section id="sidebar">
-        <a href="#" class="brand" style="justify-content: center;">
-            <!-- <i class='bx bxs-smile'></i> -->
-            <i class="bx icon fa fa-laptop"></i>
-            <span class="text">AdminHub</span>
-        </a>
-        <ul class="side-menu top">
-            <li class="active">
-                <a href="#">
-                    <i class='bx icon fa fa-dashboard'></i>
-                    <router-link  class="text" to="/admin">Dashboard</router-link>                    
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx icon fa fa-dashboard'></i>
-                    <router-link  class="text" to="/admin/productmanage">Product Manage</router-link>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx icon fa fa-dashboard'></i>
-                    <router-link  class="text" to="/admin/categorymanage">Category Manage</router-link>                    
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx icon fa fa-dashboard'></i>
-                    <router-link class="text" to="/admin/customermanage">Customer Manage</router-link>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx icon fa fa-dashboard'></i>
-                    <router-link to="/admin/ordermanage" class="text">Order Manage</router-link>
-                </a>
-            </li>
-        </ul>
-        <ul class="side-menu">
-            <li>
-                <a href="#">
-                    <i class='bx fa fa-gear'></i>
-                    <span class="text">Settings</span>
-                </a>
-            </li>
-            <li>
-                <a class="logout" @click="logout">
-                    <i class='bx fa fa-sign-out'></i>
-                    <span class="text">Logout</span>
-                </a>
-            </li>
-        </ul>
-    </section>
-    <!-- SIDEBAR -->
+    <main class="main-content">
+      <div class="container">
+        <aside class="sidebar">
+          <h2>Sidebar</h2>
+          <router-link to="/admin/CustomerManager" class="sidebar-link">Customer Manager</router-link>
+          <router-link to="/admin/ProductListManager" class="sidebar-link">Products</router-link>
+        </aside>
+      </div>
+    </main>
 </template>
 
 <script>
-
 export default {
     name: 'SidebarAdmin',
     components: {
 
     },
-    methods: {
-        logout() {
-            localStorage.removeItem('adminToken');
-            this.$router.push('/admin/login');
-        }
-    }
 }
 </script>
+
 <style scoped>
+
+.main-content {
+  display: flex;
+  flex: 1;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
 </style>
