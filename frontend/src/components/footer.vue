@@ -5,7 +5,7 @@
       <div class="row  mb-3 pb-4">
         <div class="col-md-3 info_logo">
           <div class="logo-box">
-            <img src="images/logo-white.png" alt="">
+            <img src="/src/assets/images/logo-white.png" alt="">
             <span>
               Quản lí bưu điện
             </span>
@@ -16,22 +16,22 @@
           <div class="info_social">
             <div>
               <a href="">
-                <img src="images/fb.png" alt="">
+                <img src="/src/assets/images/fb.png" alt="">
               </a>
             </div>
             <div>
               <a href="">
-                <img src="images/twitter.png" alt="">
+                <img src="/src/assets/images/twitter.png" alt="">
               </a>
             </div>
             <div>
               <a href="">
-                <img src="images/g-plus.png" alt="">
+                <img src="/src/assets/images/g-plus.png" alt="">
               </a>
             </div>
             <div>
               <a href="">
-                <img src="images/linkedin.png" alt="">
+                <img src="/src/assets/images/linkedin.png" alt="">
               </a>
             </div>
           </div>

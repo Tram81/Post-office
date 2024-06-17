@@ -7,7 +7,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container d-lg-none">
           <a class="navbar-brand" href="#">
             <div class="logo-box">
-              <img src="images/logo.png" alt="">
+              <img src="/src/assets/images/logo.png" alt="">
               <span>
                 Quản lí bưu điện 
               </span>
@@ -42,7 +42,7 @@
         </nav>
         <div class="header_container ">
           <div class="logo-box">
-            <img src="images/logo.png" alt="">
+            <img src="/src/assets/images/logo.png" alt="">
             <span>
               Quản lí bưu điện 
             </span>
@@ -52,7 +52,7 @@
               <div class="header_top-contact">
                 <a href="" class="ml-4">
                   <div>
-                    <img src="src/assets/images/phone.png" alt="" />
+                    <img src="/src/assets/images/phone.png" alt="" />
                   </div>
                   <span>
                     (+84) 123456789
@@ -60,7 +60,7 @@
                 </a>
                 <a href="" class="ml-4">
                   <div>
-                    <img src="images/mail.png" alt="" />
+                    <img src="/src/assets/images/mail.png" alt="" />
                   </div>
                   <span>
                     Quanlibuudien@gmail.com
@@ -70,22 +70,22 @@
               <div class="header_top-social">
                 <div>
                   <a href="">
-                    <img src="images/fb.png" alt="">
+                    <img src="/src/assets/images/fb.png" alt="">
                   </a>
                 </div>
                 <div>
                   <a href="">
-                    <img src="images/twitter.png" alt="">
+                    <img src="/src/assets/images/twitter.png" alt="">
                   </a>
                 </div>
                 <div>
                   <a href="">
-                    <img src="images/g-plus.png" alt="">
+                    <img src="/src/assets/images/g-plus.png" alt="">
                   </a>
                 </div>
                 <div>
                   <a href="">
-                    <img src="images/linkedin.png" alt="">
+                    <img src="/src/assets/images/linkedin.png" alt="">
                   </a>
                 </div>
               </div>
@@ -149,7 +149,7 @@
                         <form action="">
                           <div class="search_input">
                             <input type="text">
-                            <img src="images/search-icon.png" alt="">
+                            <img src="/src/assets/images/search-icon.png" alt="">
                           </div>
                           <button>
                             Tìm kiếm
@@ -168,7 +168,7 @@
                               <span>
                                 Đọc thêm 
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                           <div class="ml-3">
@@ -176,7 +176,7 @@
                               <span>
                                 Nhận báo giá
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                         </div>
@@ -185,7 +185,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="slider_img-box">
-                      <img src="images/truck.png" alt="" class="img-fluid">
+                      <img src="/src/assets/images/truck.png" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>
@@ -202,7 +202,7 @@
                         <form action="">
                           <div class="search_input">
                             <input type="text">
-                            <img src="images/search-icon.png" alt="">
+                            <img src="/src/assets/images/search-icon.png" alt="">
                           </div>
                           <button>
                             Search
@@ -221,7 +221,7 @@
                               <span>
                                 Read More
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                           <div class="ml-3">
@@ -229,7 +229,7 @@
                               <span>
                                 Get A Quote
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                         </div>
@@ -238,7 +238,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="slider_img-box">
-                      <img src="images/truck.png" alt="" class="img-fluid">
+                      <img src="/src/assets/images/truck.png" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@
                         <form action="">
                           <div class="search_input">
                             <input type="text">
-                            <img src="images/search-icon.png" alt="">
+                            <img src="/src/assets/images/search-icon.png" alt="">
                           </div>
                           <button>
                             Search
@@ -274,7 +274,7 @@
                               <span>
                                 Read More
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                           <div class="ml-3">
@@ -282,7 +282,7 @@
                               <span>
                                 Get A Quote
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                         </div>
@@ -291,7 +291,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="slider_img-box">
-                      <img src="images/truck.png" alt="" class="img-fluid">
+                      <img src="/src/assets/images/truck.png" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>
@@ -308,7 +308,7 @@
                         <form action="">
                           <div class="search_input">
                             <input type="text">
-                            <img src="images/search-icon.png" alt="">
+                            <img src="/src/assets/images/search-icon.png" alt="">
                           </div>
 
                           <button>
@@ -328,7 +328,7 @@
                               <span>
                                 Read More
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                           <div class="ml-3">
@@ -337,7 +337,7 @@
                               <span>
                                 Get A Quote
                               </span>
-                              <img src="images/white-next.png" alt="">
+                              <img src="/src/assets/images/white-next.png" alt="">
                             </a>
                           </div>
                         </div>
@@ -346,7 +346,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="slider_img-box">
-                      <img src="images/truck.png" alt="" class="img-fluid">
+                      <img src="/src/assets/images/truck.png" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>

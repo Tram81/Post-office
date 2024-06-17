@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="about_img-box">
-            <img src="images/a-truck.jpg" alt="" class="img-fluid">
+            <img src="/src/assets/images/a-truck.jpg" alt="" class="img-fluid">
           </div>
         </div>
         <div class="col-md-6 about_detail-container">
@@ -28,7 +28,7 @@
             </p>
             <div class="d-flex  justify-content-end">
               <a href="" class="quote-btn about-btn">
-                <img src="images/white-next.png" alt="">
+                <img src="/src/assets/images/white-next.png" alt="">
                 <span>
                   Giới thiệu thêm
                 </span>

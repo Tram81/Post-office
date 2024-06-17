@@ -9,7 +9,7 @@
       <div class="row layout_padding2-top">
         <div class="col-md-4">
           <div class="service_img-box s-b-1">
-            <img src="images/service-1.jpg" alt="">
+            <img src="/src/assets//service-1.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Nội thành
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-4">
           <div class="service_img-box s-b-2">
-            <img src="images/service-2.jpg" alt="">
+            <img src="/src/assets/images/service-2.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Ngoại thành
@@ -39,7 +39,7 @@
         </div>
         <div class="col-md-4">
           <div class="service_img-box s-b-3">
-            <img src="images/service-3.jpg" alt="">
+            <img src="/src/assets/images/service-3.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Quốc tế
