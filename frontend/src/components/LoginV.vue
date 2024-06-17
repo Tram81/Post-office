@@ -1,45 +1,36 @@
 <template>
-  <div class="authincation h-100">
-    <div class="container-fluid h-100">
-      <div class="row justify-content-center h-100 align-items-center">
-        <div class="col-md-6">
-          <div class="authincation-content">
-            <div class="row no-gutters">
-              <div class="col-xl-12">
-                <div class="auth-form">
-                  <h4 class="text-center mb-4">Sign in your account</h4>
-                  <form @submit.prevent="handleLogin">
-                    <div v-if="error" class="alert alert-danger">{{ error }}</div>
-                    <div class="form-group">
-                      <label for="username"><strong>Tên đăng nhập</strong></label>
-                      <input v-model="username" type="text" id="username" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                      <label><strong>Password</strong></label>
-                      <input v-model="password" type="password" class="form-control" required>
-                    </div>
-                    <div class="form-row d-flex justify-content-between mt-4 mb-2">
-                      <div class="form-group">
-                        <div class="form-check ml-2">
-                          <input class="form-check-input" type="checkbox" id="rememberMe">
-                          <label class="form-check-label" for="rememberMe">Remember me</label>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <a href="page-forgot-password.html">Forgot Password?</a>
-                      </div>
-                    </div>
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-primary btn-block">Sign me in</button>
-                    </div>
-                  </form>
-                  <div class="new-account mt-3">
-                    <p>Don't have an account? <router-link class="text-primary" to="/register">Sign up</router-link></p>
-                  </div>
-                </div>
-              </div>
+  <div class="authentication-container">
+    <div class="auth-content">
+      <div class="auth-form">
+        <h4 class="form-title">Đăng nhập vào tài khoản của bạn</h4>
+        <form @submit.prevent="handleLogin">
+          <div v-if="error" class="alert alert-danger">{{ error }}</div>
+          <div class="form-group">
+            <label for="email"><strong>Email người dùng</strong></label>
+            <input v-model="email" type="text" id="email" name="email" class="form-control" placeholder="Email người dùng" required>
+          </div>
+          <div class="form-group">
+            <label for="password"><strong>Mật khẩu</strong></label>
+            <div class="password-input-container">
+              <input v-model="password" :type="passwordFieldType" id="password" class="form-control" placeholder="Mật khẩu" required>
+              <font-awesome-icon :icon="passwordIcon" class="toggle-password" @click="togglePasswordVisibility" />
             </div>
           </div>
+          <div class="form-options">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="rememberMe">
+              <label class="form-check-label" for="rememberMe">Ghi nhớ tôi</label>
+            </div>
+            <div class="form-link">
+              <a href="">Quên mật khẩu?</a>
+            </div>
+          </div>
+          <div class="form-action">
+            <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+          </div>
+        </form>
+        <div class="new-account">
+          <p>Chưa có tài khoản? <router-link class="text-primary" to="/register">Đăng ký</router-link></p>
         </div>
       </div>
     </div>
@@ -48,22 +39,28 @@
 
 <script>
 import axios from 'axios';
-import router from '../router'; // Đảm bảo import router từ Vue Router
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 export default {
+  components: {
+    FontAwesomeIcon,
+  },
   data() {
     return {
-      username: '',
+      email: '',
       password: '',
-      error: ''  // Biến để lưu thông báo lỗi
+      error: '',  // Biến để lưu thông báo lỗi
+      passwordFieldType: 'password',
+      passwordIcon: faEye,
     };
   },
   methods: {
     async handleLogin() {
       this.error = '';  // Reset lỗi trước khi đăng nhập
       try {
-        const response = await axios.post('https://localhost:7074/api/Auth/Login', {
-          username: this.username,
+        const response = await axios.post('https://localhost:7074/api/Login/loginCustomer', {
+          email: this.email,
           password: this.password
         });
 
@@ -71,36 +68,161 @@ export default {
         localStorage.setItem('token', response.data.token);
 
         // Chuyển hướng đến trang sau khi đăng nhập thành công
-        router.push('/');
+        this.$router.push('/product');  // Chuyển hướng đến trang sản phẩm sau khi đăng nhập thành công
       } catch (error) {
         if (error.response && error.response.status === 400) {
           this.error = "Tên đăng nhập hoặc mật khẩu không đúng";  // Hiển thị thông báo lỗi cụ thể
         } else {
-          this.error = "An error occurred during login. Please try again.";
+          this.error = "Đã xảy ra lỗi khi đăng nhập. Vui lòng thử lại.";
         }
-        console.error('Login error:', error);
+        console.error('Lỗi đăng nhập:', error);
       }
-    }
-  }
+    },
+    togglePasswordVisibility() {
+      if (this.passwordFieldType === 'password') {
+        this.passwordFieldType = 'text';
+        this.passwordIcon = faEyeSlash;
+      } else {
+        this.passwordFieldType = 'password';
+        this.passwordIcon = faEye;
+      }
+    },
+  },
 };
 </script>
 
-
 <style scoped>
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #BDBDC7;
-  text-align: left;
+.authentication-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f7f7f7;
+}
+
+.auth-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
 }
 
 .auth-form {
-  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+.form-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-input {
+  margin-right: 8px;
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+.form-link a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-link a:hover {
+  text-decoration: underline;
+}
+
+.form-action {
+  text-align: center;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-block:hover {
+  background-color: #0056b3;
+}
+
+.new-account {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.new-account p {
+  font-size: 14px;
+  color: #555;
+}
+
+.new-account .text-primary {
+  color: #007bff;
+}
+
+.new-account .text-primary:hover {
+  text-decoration: underline;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #000; /* Màu sắc của icon */
+  font-size: 16px;
+}
+
+.toggle-password:hover {
+  color: #0056b3;
 }
 </style>

@@ -13,10 +13,10 @@ import ContactView from '@/views/ContactView.vue'
 
 import DashboardView from '@/views/admin/DashboardView.vue'
 import LoginAdminView from '@/views/admin/LoginAdminView.vue'
-import ProductListManagerView from '@/views/admin/ProductListManagerView.vue'
-import ProductListAddView from '@/views/admin/ProductListAddView.vue'
-import EditProductView from '@/views/admin/EditProductView.vue'
 import UserManagerView from '@/views/admin/UserManagerView.vue'
+import ProductListAddView from '@/views/admin/ProductListAddView.vue'
+import ProductListManagerView from '@/views/admin/ProductListManagerView.vue'
+import EditProductView from '@/views/admin/EditProductView.vue'
 
 // import ProductListAddView from '@/views/admin/ProductListAddView.vue'
 // import ProductListAddView from '@/views/admin/ProductListAddView.vue'
@@ -30,7 +30,8 @@ const routes = [
   {
     path: '/Product',
     name: 'ProductListView',
-    component: ProductListView
+    component: ProductListView,
+    meta: { requiresAuth: true }, // Thêm meta để yêu cầu xác thực
   },
   {
     path: '/Service',
@@ -68,19 +69,19 @@ const routes = [
     component: ContactView
   },
   {
-    path: '/admin/dashboard',
-    name: 'DashboardView',
-    component: DashboardView
-  },
-  {
     path: '/admin/LoginAdmin',
     name: 'LoginAdminView',
     component: LoginAdminView
   },
   {
-    path: '/admin/ProductListManager',
-    name: 'ProductListManagerView',
-    component: ProductListManagerView
+    path: '/admin/Dashboard',
+    name: 'DashboardView',
+    component: DashboardView
+  },
+  {
+    path: '/admin/UserManager',
+    name: 'UserManagerView',
+    component: UserManagerView
   },
   {
     path: '/admin/ProductListAdd',
@@ -88,17 +89,16 @@ const routes = [
     component: ProductListAddView
   },
   {
+    path: '/admin/ProductListManager',
+    name: 'ProductListManagerView',
+    component: ProductListManagerView
+  },
+  {
     path: '/admin/EditProduct',
     name: 'EditProductView',
     component: EditProductView
   },
-  {
-    path: '/admin/UserManager',
-    name: 'UserManagerView',
-    component: UserManagerView
-  },
 ]
-
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes

@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="about_img-box">
-            <img src="images/a-truck.jpg" alt="" class="img-fluid">
+            <img src="/src/assets/images/a-truck.jpg" alt="" class="img-fluid">
           </div>
         </div>
         <div class="col-md-6 about_detail-container">
@@ -28,7 +28,7 @@
             </p>
             <div class="d-flex  justify-content-end">
               <a href="" class="quote-btn about-btn">
-                <img src="images/white-next.png" alt="">
+                <img src="/src/assets/images/white-next.png" alt="">
                 <span>
                   Giới thiệu thêm
                 </span>
@@ -51,7 +51,7 @@
       <div class="row layout_padding2-top">
         <div class="col-md-4">
           <div class="service_img-box s-b-1">
-            <img src="images/service-1.jpg" alt="">
+            <img src="/src/assets/images/service-1.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Nội thành
@@ -66,7 +66,7 @@
         </div>
         <div class="col-md-4">
           <div class="service_img-box s-b-2">
-            <img src="images/service-2.jpg" alt="">
+            <img src="/src/assets/images/service-2.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Ngoại thành
@@ -81,7 +81,7 @@
         </div>
         <div class="col-md-4">
           <div class="service_img-box s-b-3">
-            <img src="images/service-3.jpg" alt="">
+            <img src="/src/assets/images/service-3.jpg" alt="">
             <div class="d-flex">
               <h3>
                 Quốc tế
@@ -131,7 +131,7 @@
         </div>
         <div class="col-md-6">
           <div class="shop_img-box">
-            <img src="images/gift.jpg" alt="" class="img-fluid">
+            <img src="/src/assets/images/gift.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-1">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -175,7 +175,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-2">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -196,7 +196,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-1">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -213,7 +213,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-2">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -236,7 +236,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-1">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -253,7 +253,7 @@
               <div class="col-md-6">
                 <div class="client_box c-b-2">
                   <div class="client_img">
-                    <img src="images/client.png" alt="" class="img-fluid">
+                    <img src="/src/assets/images/client.png" alt="" class="img-fluid">
                   </div>
                   <div class="client_detail">
                     <h5>
@@ -293,7 +293,7 @@
         </div>
         <div class="col-md-6">
           <div class="company_img-box">
-            <img src="images/company.jpg" alt="" class="img-fluid">
+            <img src="/src/assets/images/company.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>

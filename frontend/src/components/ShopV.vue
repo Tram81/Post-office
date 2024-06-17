@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-6">
           <div class="shop_img-box">
-            <img src="images/gift.jpg" alt="" class="img-fluid">
+            <img src="/src/assets/images/gift.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
