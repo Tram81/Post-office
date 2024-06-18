@@ -13,11 +13,8 @@ import ContactView from '@/views/ContactView.vue'
 
 import DashboardView from '@/views/admin/DashboardView.vue'
 import LoginAdminView from '@/views/admin/LoginAdminView.vue'
-import CustomerManagerView from '@/views/admin/CustomerManagerView.vue'
+import UserManagerView from '@/views/admin/UserManagerView.vue'
 import ProductListManagerView from '@/views/admin/ProductListManagerView.vue'
-
-// import ProductListAddView from '@/views/admin/ProductListAddView.vue'
-// import ProductListAddView from '@/views/admin/ProductListAddView.vue'
 
 const routes = [
   {
@@ -29,7 +26,7 @@ const routes = [
     path: '/Product',
     name: 'ProductListView',
     component: ProductListView,
-    meta: { requiresAuth: true }, // Thêm meta để yêu cầu xác thực
+    meta: { requiresAuth: true }
   },
   {
     path: '/Service',
@@ -77,9 +74,9 @@ const routes = [
     component: DashboardView
   },
   {
-    path: '/admin/CustomerManager',
-    name: 'CustomerManagerView',
-    component: CustomerManagerView
+    path: '/admin/UserManager',
+    name: 'UserManagerView',
+    component: UserManagerView
   },
   {
     path: '/admin/ProductListManager',
@@ -87,8 +84,24 @@ const routes = [
     component: ProductListManagerView
   },
 ]
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
+
+// Thêm guard cho tuyến đường
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.requiresAuth)) {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      next({ name: 'LoginView' });
+    } else {
+      next();
+    }
+  } else {
+    next();
+  }
+});
+
 export default router

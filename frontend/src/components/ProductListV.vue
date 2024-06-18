@@ -16,7 +16,7 @@
           <td>{{ p.description }}</td>
           <td>{{ formatCurrency(p.price) }}</td>
           <td>{{ p.quantityStock }}</td>
-        </tr>    
+        </tr>
       </tbody>
     </table>
   </div>
@@ -26,25 +26,23 @@
 import axios from 'axios';
 
 export default {
-  name: "ProductListV",
+  name: "ProductListView",
   data() {
     return {
       products: []
     };
   },
   methods: {
-    fetchProducts() {
-      var url = process.env.VUE_APP_BASE_URL + `Product/GetAll`;
-      axios.get(url)
-        .then(response => {
-          this.products = response.data;
-        })
-        .catch(error => {
-          console.error('Có lỗi khi tải danh sách sản phẩm!', error);
-        });
+    async fetchProducts() {
+      try {
+        const url = process.env.VUE_APP_BASE_URL + 'Product/GetAll';
+        const response = await axios.get(url);
+        this.products = response.data;
+      } catch (error) {
+        console.error('Có lỗi khi tải danh sách sản phẩm!', error);
+      }
     },
     formatCurrency(value) {
-      // Hàm định dạng số tiền sang đơn vị tiền tệ VNĐ
       return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value);
     }
   },
@@ -55,13 +53,11 @@ export default {
 </script>
 
 <style scoped>
-/* Định dạng cho phần tiêu đề h1 */
 h1 {
-  font-size: 50px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
-/* Định dạng cho bảng */
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -70,7 +66,6 @@ h1 {
   border: 1px solid #ddd;
 }
 
-/* Định dạng cho tiêu đề cột */
 th {
   text-align: left;
   padding: 12px;
@@ -78,18 +73,15 @@ th {
   border-bottom: 1px solid #ddd;
 }
 
-/* Định dạng cho nội dung trong ô */
 td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
 }
 
-/* Định dạng cho dòng chẵn (background màu nhạt) */
 tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-/* Định dạng khi rê chuột vào dòng */
 tbody tr:hover {
   background-color: #f2f2f2;
 }

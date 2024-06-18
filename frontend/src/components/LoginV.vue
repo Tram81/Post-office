@@ -6,8 +6,8 @@
         <form @submit.prevent="handleLogin">
           <div v-if="error" class="alert alert-danger">{{ error }}</div>
           <div class="form-group">
-            <label for="email"><strong>Email người dùng</strong></label>
-            <input v-model="email" type="text" id="email" name="email" class="form-control" placeholder="Email người dùng" required>
+            <label for="username"><strong>Tên người dùng</strong></label>
+            <input v-model="username" type="text" id="username" name="username" class="form-control" placeholder="Tên người dùng" required>
           </div>
           <div class="form-group">
             <label for="password"><strong>Mật khẩu</strong></label>
@@ -48,7 +48,7 @@ export default {
   },
   data() {
     return {
-      email: '',
+      username: '',
       password: '',
       error: '',  // Biến để lưu thông báo lỗi
       passwordFieldType: 'password',
@@ -59,19 +59,19 @@ export default {
     async handleLogin() {
       this.error = '';  // Reset lỗi trước khi đăng nhập
       try {
-        const response = await axios.post('https://localhost:7074/api/Login/loginCustomer', {
-          email: this.email,
+        const response = await axios.post('https://localhost:7074/api/Auth/Login', {
+          username: this.username,  // Thay đổi từ email thành username
           password: this.password
         });
 
-        // Lưu token vào localStorage (hoặc Vuex state nếu bạn sử dụng Vuex)
+        // Lưu token vào localStorage
         localStorage.setItem('token', response.data.token);
 
         // Chuyển hướng đến trang sau khi đăng nhập thành công
-        this.$router.push('/product');  // Chuyển hướng đến trang sản phẩm sau khi đăng nhập thành công
+        this.$router.push('/Product');
       } catch (error) {
         if (error.response && error.response.status === 400) {
-          this.error = "Tên đăng nhập hoặc mật khẩu không đúng";  // Hiển thị thông báo lỗi cụ thể
+          this.error = "Tên đăng nhập hoặc mật khẩu không đúng";
         } else {
           this.error = "Đã xảy ra lỗi khi đăng nhập. Vui lòng thử lại.";
         }

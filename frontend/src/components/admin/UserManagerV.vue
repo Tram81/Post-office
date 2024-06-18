@@ -5,7 +5,6 @@
       <SidebarAdmin />
       <div class="container mt-4">
         <h2>Quản lý Người dùng</h2>
-
         <!-- Form để tạo hoặc chỉnh sửa người dùng -->
         <form @submit.prevent="handleSubmit">
           <div class="mb-3">
@@ -82,7 +81,7 @@ import NavbarAdmin from './NavbarAdminV.vue';
 import FooterAdmin from './FooterAdminV.vue';
 
 export default {
-  name: 'CustomerManagerV',
+  name: 'UserManagerV',
   components: {
     FontAwesomeIcon,
     SidebarAdmin,
@@ -145,10 +144,10 @@ export default {
       }
     };
 
-    const deleteUser = async (userId) => {
+    const deleteUser = async (ID) => {
       try {
-        await axios.delete(`${apiUrl}/Delete/${userId}`);
-        userList.value = userList.value.filter(user => user.id !== userId);
+        await axios.delete(`${apiUrl}/Delete/${ID}`);
+        userList.value = userList.value.filter(user => user.id !== ID);
       } catch (error) {
         console.error('Lỗi khi xóa người dùng:', error);
       }

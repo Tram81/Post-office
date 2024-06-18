@@ -3,7 +3,7 @@
       <div class="container">
         <aside class="sidebar">
           <h2>Sidebar</h2>
-          <router-link to="/admin/CustomerManager" class="sidebar-link">Customer Manager</router-link>
+          <router-link to="/admin/UserManager" class="sidebar-link">Customer Manager</router-link>
           <router-link to="/admin/ProductListManager" class="sidebar-link">Products</router-link>
         </aside>
       </div>
