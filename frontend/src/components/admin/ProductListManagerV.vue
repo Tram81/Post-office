@@ -61,6 +61,8 @@
 <script>
 import SidebarAdmin from './SidebarAdminV.vue';
 import NavbarAdmin from './NavbarAdminV.vue';
+
+
 import FooterAdmin from './FooterAdminV.vue';
 import axios from 'axios';
 
